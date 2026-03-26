@@ -5,8 +5,8 @@
         <%= image_tag "logo.png", class: "logo", alt: "プロトスペースのロゴ" %>
       <% end %>
       <div class="nav__btns">
-        <%= link_to "ログイン", "#", class: "nav__btn" %>
-        <%= link_to "新規登録", "#", class: "nav__btn" %>
+        <%= link_to "ログイン", new_user_session_path, class: "nav__btn" %>
+        <%= link_to "新規登録", new_user_registration_path, class: "nav__btn" %>
       </div>
     </div>
   </div>
