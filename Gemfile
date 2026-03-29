@@ -1,3 +1,5 @@
+gem 'pg'
+
 source "https://rubygems.org"
 
 ruby "3.2.0"
@@ -70,3 +72,4 @@ end
 gem 'devise'
 gem 'mini_magick'
 gem 'image_processing', '~> 1.2'
+
